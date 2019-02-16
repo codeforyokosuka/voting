@@ -1,0 +1,19 @@
+
+
+/*************************************************
+ *  Hugo Academic: an academic theme for Hugo.
+ *  Designed by @GeorgeCushen.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+/*************************************************
+ *  Biography
+ **************************************************/
+
+.people .portrait {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+}

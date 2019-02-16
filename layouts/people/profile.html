@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "page_header.html" . }}
+
+{{ .Scratch.Set "section" .Section }}
+{{ $section := .Scratch.Get "section" }}
+<!-- Widgets -->
+{{ range $index, $page := where (where .Data.Pages "Section" $section) ".Params.active" "!=" false }}
+  {{ $params := dict "root" $ "page" $page }}
+  {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
+  {{ if in (slice "hero" "hero_carousel") $page.Params.widget }}
+    {{ partial $widget $params }}
+  {{ else }}
+  <section id="{{ $page.File.TranslationBaseName }}" class="home-section">
+    <div class="container">
+      {{ partial $widget $params }}
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

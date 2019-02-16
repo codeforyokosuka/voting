@@ -1,0 +1,50 @@
+{{ if .Params.widgets }}
+
+{{ else }}
+
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  <div class="d-flex align-content-start flex-wrap">
+
+    {{ $paginator := .Paginate .Sections }}
+    {{ range $paginator.Pages }}
+    <div class="m-2">
+      <div class="people">
+
+        {{ if $.Site.Params.gravatar }}
+        <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $.Site.Params.email }}?s=200')" itemprop="image" alt="Avatar">
+        {{ else if (.Params.avatar | default $.Site.Params.avatar) }}
+        <img class="portrait" src="{{ (printf "%s%s" .Permalink (.Params.avatar | default $.Site.Params.avatar)) }}" itemprop="image" alt="Avatar">
+        {{ end }}
+      </div>
+      <div class="text-center" itemprop="description">
+        <p class="h6 m-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+        <div class="article-style small">
+          {{ if .Params.summary }}
+          {{ .Params.summary | plainify | emojify }}
+          {{ else if .Params.abstract }}
+          {{ .Params.abstract | plainify | emojify | truncate 250 }}
+          {{ else if .Summary }}
+          {{ .Summary | plainify | emojify }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination" . }}
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
+
+{{ end }}
