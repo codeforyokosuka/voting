@@ -13,30 +13,35 @@ organizations = [ { name = "横須賀市", url = "https://www.city.yokosuka.kana
 
 title = "About"
 
+# List your academic interests.
+[interests]
+  interests = [
+    "音楽 (合唱)",
+    "IT (Web, プログラミング, 教育)",
+  ]
+
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "教育学部・教育学科"
-  institution = "早稲田大学"
-  year = 1998
+  course = "政治経済学部 政治学科 学士"
+  institution = "明治大学"
+  year = 2009
 
 [[education.courses]]
   course = "普通科"
-  institution = "県立横須賀高校"
-  year = 1993
+  institution = "福島県立会津高等学校"
+  year = 2005
 
 +++
 
 # プロフィール
-「福祉のまち、よこすか」
-をめざして
+1986年生まれ。福島県会津若松市出身。
+会津若松市立第三中学校、福島県立会津高等学校を経て明治大学政治経済学部政治学部を卒業。
+横須賀国際合唱団代表、横須賀市合唱団体連絡協議会事務局員。
 
-このまちは、もっとおもしろくなる。
-このまちを、もっと好きになれる。
-あなたも僕と一緒にこのまちを
-もっともっとおもしろくしよう。
+2013年、結婚を機に横須賀市へ移り住み、2015年に横須賀国際合唱団を設立。2018年より横須賀市合唱団体連絡協議会の事務局に入局。
 
-（参照元：公式HP | https://www.hide-fujino.com/）
-<br><br><br>
-教育福祉常任委員会、予算決算常任委員会（教育福祉分科会）
+フリーランスのWebエンジニア。地域課題をテクノロジーの力で解決するシビックテック団体 Code for Yokosuka のメンバーとして活動中。
 
-<span style="font-size:small">(2019/03/30 現在)</span>
+三歳の娘と一歳の息子をもつ二児の父。
+
+<span style="font-size:small">(2019/01/21 現在)</span>
