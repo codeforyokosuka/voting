@@ -14,6 +14,11 @@ organizations = [ { name = "横須賀市", url = "https://www.city.yokosuka.kana
 title = "About"
 
 [[social]]
+  icon = "instagram"
+  icon_pack = "fab"
+  link = "https://www.instagram.com/junpeikayama/"
+
+[[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/junpei_kayama"

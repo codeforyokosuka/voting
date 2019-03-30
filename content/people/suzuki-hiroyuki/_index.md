@@ -3,19 +3,19 @@
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false
-active = true
+active = false
 
 layout = "profile"
 
-title = "鈴木真智子"
+title = "鈴木広之"
 
 subtitle = ""
-summary = "副議長"
+summary = "歌うWebエンジニア"
 
 avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
-weight = 2
+weight = 500
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

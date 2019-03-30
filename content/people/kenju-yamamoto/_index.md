@@ -12,7 +12,7 @@ title = "山本けんじゅ"
 subtitle = ""
 summary = "All Yokosuka!!"
 
-avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
 weight = 102

@@ -12,7 +12,7 @@ title = "藤野英明"
 subtitle = ""
 summary = "キャッチコピー"
 
-avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
 weight = 104

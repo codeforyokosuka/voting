@@ -12,7 +12,7 @@ title = "はまのまさひろ"
 subtitle = ""
 summary = "無所属、無会派"
 
-avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
 weight = 101

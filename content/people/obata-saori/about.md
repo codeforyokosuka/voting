@@ -13,25 +13,6 @@ organizations = [ { name = "", url = "" } ]
 
 title = "About"
 
-# List your academic interests.
-[interests]
-  interests = [
-    "歌（声楽、ゴスペルなど。バンドもやっていました。）",
-    "読書（次に読む本を常に用意しています。）",
-    "食べること（一食、一食を大切にしています。）",
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "政治学部"
-  institution = "カリフォルニア大学ロサンゼルス校（UCLA）"
-  year = 2009
-
-[[education.courses]]
-  course = "普通科"
-  institution = "横浜市立金沢高校"
-  year = 2004
-
 +++
 
 # プロフィール

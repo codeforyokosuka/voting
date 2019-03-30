@@ -12,10 +12,10 @@ title = "田辺昭人"
 subtitle = ""
 summary = "自由民主党"
 
-avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
-weight = 1
+weight = 141
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

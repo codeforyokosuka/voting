@@ -55,6 +55,30 @@ autolink = true
 #   1: Netlify (requires that the site is hosted by Netlify)
 #   2: formspree.io
 email_form = 1
+
+# List your academic interests.
+[interests]
+  interests = [
+    "Artificial Intelligence",
+    "Computational Linguistics",
+    "Information Retrieval"
+  ]
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "PhD in Artificial Intelligence"
+  institution = "Stanford University"
+  year = 2012
+
+[[education.courses]]
+  course = "MEng in Artificial Intelligence"
+  institution = "Massachusetts Institute of Technology"
+  year = 2009
+
+[[education.courses]]
+  course = "BSc in Artificial Intelligence"
+  institution = "Massachusetts Institute of Technology"
+  year = 2008
  
 # Showcase personal skills or business features.
 # 
@@ -111,6 +135,36 @@ email_form = 1
   date_start = "2016-01-01"
   date_end = "2016-12-31"
   description = """Taught electronic engineering and researched semiconductor physics."""
+
+# Accomplishments.
+#   Add/remove as many `[[item]]` blocks below as you like.
+#   `title`, `organization` and `date_start` are the required parameters.
+#   Leave other parameters empty if not required.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[item]]
+  title = "Neural Networks and Deep Learning"
+  organization = "Coursera"
+  certificate_url = "https://www.coursera.org"
+  date_start = "2018-10-01"
+  date_end = ""
+  description = ""
+
+[[item]]
+  title = "Blockchain Fundamentals"
+  organization = "edX"
+  certificate_url = "https://www.edx.org"
+  date_start = "2018-03-01"
+  date_end = ""
+  description = ""
+  
+[[item]]
+  title = "Intro to Python"
+  organization = "DataCamp"
+  certificate_url = "https://www.datacamp.com"
+  date_start = "2017-07-01"
+  date_end = "2017-12-21"
+  description = ""
 
 +++
 
