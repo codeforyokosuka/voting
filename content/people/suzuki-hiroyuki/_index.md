@@ -3,7 +3,7 @@
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false
-active = true
+active = false
 
 layout = "profile"
 
@@ -15,7 +15,7 @@ summary = "歌うWebエンジニア"
 avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
-weight = 7
+weight = 5
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

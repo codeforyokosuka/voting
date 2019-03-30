@@ -10,12 +10,12 @@ layout = "profile"
 title = "鈴木真智子"
 
 subtitle = ""
-summary = "●●な副議長"
+summary = "副議長"
 
 avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
-weight = 7
+weight = 2
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

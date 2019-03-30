@@ -15,7 +15,7 @@ summary = "起こすか！よこすか！"
 avatar = "junpei.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
-weight = 7
+weight = 135
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

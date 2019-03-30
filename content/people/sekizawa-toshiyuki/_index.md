@@ -15,7 +15,7 @@ summary = "公明党"
 avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
 # Order that this section will appear in.
-weight = 7
+weight = 105
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
