@@ -9,11 +9,19 @@ weight = 5
 
 role = "市議会議員"
 
-avatar = "boards.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-
 organizations = [ { name = "横須賀市", url = "https://www.city.yokosuka.kanagawa.jp" }, { name = "株式会社マチノベ", url = "https://16startups.com/" } ]
 
 title = "About"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/junpei_kayama"
+
+[[social]]
+  icon = "facebook"
+  icon_pack = "fab"
+  link = "https://www.facebook.com/kayama.jp/"
 
 # List your academic interests.
 [interests]
