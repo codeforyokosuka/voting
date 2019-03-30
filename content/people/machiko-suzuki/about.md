@@ -16,33 +16,26 @@ title = "About"
 # List your academic interests.
 [interests]
   interests = [
-    "音楽 (合唱)",
-    "IT (Web, プログラミング, 教育)",
+    "映画鑑賞",
+    "ウォーキング",
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "政治経済学部 政治学科 学士"
-  institution = "明治大学"
-  year = 2009
-
-[[education.courses]]
-  course = "普通科"
-  institution = "福島県立会津高等学校"
-  year = 2005
+  course = "文学部社会学科"
+  institution = "創価大学"
 
 +++
 
 # プロフィール
 
-1986年生まれ。福島県会津若松市出身。  
-会津若松市立第三中学校、福島県立会津高等学校を経て明治大学政治経済学部政治学部を卒業。  
-横須賀国際合唱団代表、横須賀市合唱団体連絡協議会事務局員。
+生活者の声を大切に、いのち輝く社会めざして！
 
-2013年、結婚を機に横須賀市へ移り住み、2015年に横須賀国際合唱団を設立。2018年より横須賀市合唱団体連絡協議会の事務局に入局。  
+（参照元：公式HP | http://www.komei.or.jp/km/yokosuka-suzuki-machiko/）
+<br><br><br>
+副議長
 
-フリーランスのWebエンジニア。地域課題をテクノロジーの力で解決するシビックテック団体 Code for Yokosuka のメンバーとして活動中。
+総務常任委員会、予算決算常任委員会委員長（総務分科会）、
+予算決算常任委員会理事会（会長）
 
-三歳の娘と一歳の息子をもつ二児の父。
-
-<span style="font-size:small">(2019/01/21 現在)</span>
+<span style="font-size:small">(2019/3/30 現在)</span>

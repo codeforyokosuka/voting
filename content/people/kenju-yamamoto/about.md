@@ -13,23 +13,14 @@ organizations = [ { name = "横須賀市", url = "https://www.city.yokosuka.kana
 
 title = "About"
 
-# List your academic interests.
-[interests]
-  interests = [
-    "音楽 (合唱)",
-    "IT (Web, プログラミング, 教育)",
-  ]
-
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "政治経済学部 政治学科 学士"
-  institution = "明治大学"
-  year = 2009
+  course = "済学部経済学科"
+  institution = "帝京大学経"
 
 [[education.courses]]
   course = "普通科"
-  institution = "福島県立会津高等学校"
-  year = 2005
+  institution = "市立横須賀工業高校（現・横須賀総合高校）"
 
 +++
 
@@ -39,6 +30,6 @@ title = "About"
 
 物事を始める時や変化を起こす時に「理屈・理論」も必要だが、その上に熱意や情熱が加わることで人の心が動く。「横須賀を熱く！！」するためには本気になって All Yokosuka！で前進あるのみ！！
 
-（参照元：公式HP | http://kenju-yokosuka.com/index.html）
+（参照元：公式HP | http://kenju-yokosuka.com/）
 
 <span style="font-size:small">(2019/03/02 現在)</span>
