@@ -25,8 +25,7 @@ title = "About"
 +++
 
 # プロフィール
-
-“One for all Yokosuka” 
+**“One for all Yokosuka”**
 
 物事を始める時や変化を起こす時に「理屈・理論」も必要だが、その上に熱意や情熱が加わることで人の心が動く。「横須賀を熱く！！」するためには本気になって All Yokosuka！で前進あるのみ！！
 
